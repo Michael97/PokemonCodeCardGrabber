@@ -39,7 +39,13 @@ pip install -r requirements.txt
 
 ## Usage :computer:
 
-Pop your code card images into the "images" folder and then run the following in cmd;
+Open a cmd window and cd into the 'src' folder within the repo and run the following command;
+
+```python
+python setup.py
+```
+
+Pop your code card images into the 'images' folder and then run the following in cmd;
 
 ```python
 python main.py

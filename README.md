@@ -13,12 +13,12 @@ Additionally, Tesseract must be installed on your system. You can head to the [o
 1. Clone this repository to your local machine.
 
 ```
-git clone https://github.com/Michael97/pokemoncodegrabber.git
+git clone https://github.com/Michael97/pokemoncodecardgrabber.git
 ```
 
 2. Navigate to the project directory.
 ```
-cd pokemoncodegrabber
+cd pokemoncodecardgrabber
 ```
 3. Create a virtual environment.
 ```

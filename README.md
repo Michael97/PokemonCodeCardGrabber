@@ -39,13 +39,17 @@ pip install -r requirements.txt
 
 ## Usage :computer:
 
-Open a cmd window and cd into the 'src' folder within the repo and run the following command;
+1. Take images of your chosen code cards like the example below.
+
+<img src="docs/code_card_example.jpg" alt="code card example" width="300"/>
+
+2. Open a cmd window and cd into the 'src' folder within the repo and run the following command;
 
 ```python
 python setup.py
 ```
 
-Pop your code card images into the 'images' folder and then run the following in cmd;
+3. Pop your code card images into the 'images' folder and then run the following in cmd;
 
 ```python
 python main.py

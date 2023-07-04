@@ -1,6 +1,12 @@
 # Pokemon Code Card Grabber :dragon: :camera:
 
-Welcome to the Pokemon Code Grabber project! This Python project helps you to take images of Pokemon code cards, extract the QR code, code, and name of the pack. :zap: :computer:
+Welcome to the Pokemon Code Card Grabber project! This Python project helps you to process images of Pokemon code cards, extract the code, and the name of the pack, then output the data to a text file. :zap: :computer:
+
+## Prerequisites 📑
+
+You must have Python 3.8 installed globally on your system.
+
+Additionally, Tesseract must be installed on your system. You can head to the [official Tesseract repository](https://github.com/tesseract-ocr/tesseract#installing-tesseract) and follow the steps provided there for installation. Make sure you install the version compatible with your system's architecture.
 
 ## Installation :gear:
 
@@ -33,13 +39,21 @@ pip install -r requirements.txt
 
 ## Usage :computer:
 
-Replace `<image_path>` with the path to the image file that you want to process.
+Open a cmd window and cd into the 'src' folder within the repo and run the following command;
 
 ```python
-python main.py <image_path>
+python setup.py
 ```
 
-The program will save a new image with the QR code highlighted, and it will print the extracted information to the console.
+Pop your code card images into the 'images' folder and then run the following in cmd;
+
+```python
+python main.py
+```
+
+The program will process each image, extract the code and the name of the pack, and log this information to an 'output.txt' file.
+
+Any images that fail to be processed will be moved to the 'failed_images' folder. If you encounter any difficulties, consult the 'logs.txt' file for more detailed error reports.
 
 ## Contributing :busts_in_silhouette:
 Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change. :bulb:

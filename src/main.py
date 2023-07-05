@@ -3,7 +3,7 @@ import pytesseract
 from pyzbar.pyzbar import decode
 import cv2
 import numpy as np
-pytesseract.pytesseract.tesseract_cmd = r'C:/Users/Michael/AppData/Local/Programs/Tesseract-OCR/tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'C:/Users/Michael/AppData/Local/Programs/Tesseract-OCR/tesseract.exe' # replace this with your own path.
 import os
 import logging
 import shutil
